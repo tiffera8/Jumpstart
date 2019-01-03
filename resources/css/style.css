@@ -1,19 +1,27 @@
 /* Universal Styles */
 
+
+
 html {
   font-size: 14px;
 }
+
+
 
 body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.4;
 }
 
+
+
 h2 {
   font-size: 1.7rem;
   font-weight: bold;
   color: #399bd1;
 }
+
+
 
 h3 {
   font-size: 1.3rem;
@@ -24,13 +32,19 @@ img {
   width: 100%;
 }
 
+
+
 /* Bootstrap Overrides */
+
+
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover {
   background-color: inherit;
   color: #399bd1;
 }
+
+
 
 .btn-primary {
   width: 160px;
@@ -42,29 +56,42 @@ img {
   transition: .5s box-shadow;
 }
 
+
+
 .btn-primary:hover {
   background-color: #399bd1;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
 }
 
+
+
 .btn-primary:active {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
 }
 
+
+
 /* Slick Overrides */
+
+
 
 .slick-slide {
   outline: none;
 }
 
+
+
 /* Navigation */
+
+
 
 .navbar {
   font-size: 1.1rem;
   font-weight: 600;
 }
-
 /* Jumbotron */
+
+
 
 .jumbotron {
   height: 44rem;
@@ -81,31 +108,45 @@ img {
     1px 1px 0 #000;
 }
 
+
+
 .background-bike {
   background-image: url("../images/jumbotron-bike.jpg");
 }
+
+
 
 .background-beer {
   background-image: url("../images/jumbotron-beer.jpg");
 }
 
+
+
 .background-flowers {
   background-image: url("../images/jumbotron-flowers.jpg");
 }
 
+
+
 .background-duffel {
   background-image: url("../images/jumbotron-duffel.jpg");
 }
+
+
 
 .jumbotron h1 {
   font-family: "Monoton", sans-serif;
   font-size: 7.1rem;
 }
 
+
+
 .jumbotron p {
   max-width: 51.3rem;
   margin: auto;
 }
+
+
 
 .relative-wrapper {
   position: relative;
@@ -114,23 +155,30 @@ img {
   text-align: center;
 }
 
+
+
 @media only screen and (max-width: 767px) {
   .jumbotron h1 {
     font-size: 5.7rem;
   }
 }
 
+
+
 @media only screen and (max-width: 550px) {
   .jumbotron h1 {
     font-size: 4rem;
   }
 }
-
 /* Project Image Containers */
+
+
 
 .image-container {
   overflow: hidden;
 }
+
+
 
 .image-container img {
   opacity: 0.7;
